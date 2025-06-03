@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'DM Sans', 'Segoe UI', Arial, sans-serif;
+    background: url('../images/background.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+header.p-3.bg-dark.text-white {
+    background: linear-gradient(90deg, #232526 0%, #414345 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+}
+
+.navbar-brand, .nav-link, .text-white {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: color 0.18s cubic-bezier(.4,0,.2,1), background 0.18s cubic-bezier(.4,0,.2,1), transform 0.18s cubic-bezier(.4,0,.2,1), box-shadow 0.18s cubic-bezier(.4,0,.2,1);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #6c63ff !important;
+    background: rgba(255,255,255,0.08);
+    border-radius: 8px;
+    transform: translateY(-2px) scale(1.07);
+    box-shadow: 0 2px 8px rgba(108,99,255,0.10);
+    text-decoration: none;
+}
+
+.btn-outline-light {
+    transition: color 0.18s cubic-bezier(.4,0,.2,1), background 0.18s cubic-bezier(.4,0,.2,1), transform 0.18s cubic-bezier(.4,0,.2,1), box-shadow 0.18s cubic-bezier(.4,0,.2,1);
+}
+
+.btn-outline-light:hover, .btn-outline-light:focus {
+    color: #fff !important;
+    background: #6c63ff !important;
+    border-color: #6c63ff !important;
+    transform: translateY(-2px) scale(1.07);
+    box-shadow: 0 2px 8px rgba(108,99,255,0.10);
+}
+
+.white-box {
+    background: #fff;
+    color: #111;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    animation: fadeInBox 0.7s cubic-bezier(.4,0,.2,1);
+}
+.white-box input,
+.white-box select,
+.white-box textarea,
+.white-box .form-label,
+.white-box .alert,
+.white-box h1,
+.white-box h2,
+.white-box h4,
+.white-box p,
+.white-box ul,
+.white-box li,
+.white-box .btn {
+    color: #111 !important;
+}
+
+@keyframes fadeInBox {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-card {
+    animation: fadeInCard 0.8s cubic-bezier(.4,0,.2,1);
+}
+@keyframes fadeInCard {
+    from { opacity: 0; transform: scale(0.96) translateY(30px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.animated-icon {
+    display: inline-block;
+    animation: bounceIcon 1.2s infinite alternate cubic-bezier(.4,0,.2,1);
+}
+@keyframes bounceIcon {
+    from { transform: translateY(0) scale(1); }
+    to { transform: translateY(-10px) scale(1.08); }
+}
+
+.btn-primary, .btn-success, .btn-outline-light {
+    transition: transform 0.15s cubic-bezier(.4,0,.2,1), box-shadow 0.15s cubic-bezier(.4,0,.2,1);
+}
+
+.btn-primary:hover, .btn-success:hover, .btn-outline-light:hover {
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+
+input.form-control, select.form-control {
+    border-radius: 8px;
+    border: 1px solid #e0e3e7;
+    transition: border-color 0.2s;
+}
+
+input.form-control:focus, select.form-control:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 0 2px rgba(108,99,255,0.08);
+}
+
+.alert {
+    border-radius: 8px;
+}
+
+h1, h2, h4 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 600;
+}

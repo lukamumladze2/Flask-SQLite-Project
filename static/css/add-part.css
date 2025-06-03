@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: url('../images/background.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+
+
+hr {color: white;
+    text-align: center;
+    }

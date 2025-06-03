@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    background: url('../images/background.jpg');
+    background-size: cover;
+}
+
+.white-box {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {text-align: center;
+    font-family: 'DM Sans';
+    sans-serif; padding: 3px;
+    color: white''
+    background: url('../images/background.jpg');
+    background-size: cover;
+    }
+
+
+hr {color: white;
+    text-align: center;
+    }

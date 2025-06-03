@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: url('/images/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 0;
+    background-color: white;
+}
+
+.row.mb-3 label {
+    width: 100%;
+    font-weight: 500;
+}
+
+#inputEmail, #inputPassword {
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+#inputEmail::placeholder, 
+#inputPassword::placeholder {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form-header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.form-check-label {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-link a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-image: url('/static/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
