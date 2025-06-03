@@ -25,10 +25,12 @@
     </div>
 </header>
 <div class="container mt-5">
+    {% block content %}
     <div class="white-box p-4 rounded shadow-sm bg-white text-center">
-        <h1>Welcome to the PC Parts Page</h1>
-        <p class="lead">Search and add your favorite PC components!</p>
+        <h1>Welcome to the PC Parts Store</h1>
+        <p class="lead">Browse, search, and add your favorite PC components!</p>
     </div>
+    {% endblock %}
 </div>
 </body>
 </html>
