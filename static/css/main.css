@@ -98,13 +98,16 @@ header.p-3.bg-dark.text-white {
 
 input.form-control, select.form-control {
     border-radius: 8px;
-    border: 1px solid #e0e3e7;
-    transition: border-color 0.2s;
+    border: 1px solid #bbb;
+    background: #fff;
+    color: #111;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 input.form-control:focus, select.form-control:focus {
-    border-color: #6c63ff;
-    box-shadow: 0 0 0 2px rgba(108,99,255,0.08);
+    border-color: #888;
+    box-shadow: 0 0 0 2px rgba(180,180,180,0.18);
+    outline: none;
 }
 
 .alert {
